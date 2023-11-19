@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container
+{
+	margin: 10px;
+	cursor: pointer;
+}
+.frame1
+{
+	height: 100vh;
+	width: 25%;
+	background-color: rgba(179, 174, 177, 0.22);
+}
+.f1-container
+{
+	display: flex;
+	flex-direction: column;
+}
+.f1-container .f1-heading
+{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
+.f1-container .f1-heading h2
+{
+	font-family: 'Grand Hotel', cursive;
+	letter-spacing: 1px;
+	padding-left: 10px;
+}
+.f1-container .f1-user
+{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.f1-user .user-logo-c1
+{
+	height: 125px;
+	width: 55%;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.user-logo-c1 .user-logo-c2
+{
+	height: 115px;
+	width: 90%;
+	border-radius: 50%;
+	background-image: url("images/sdlclogo.avif");
+	background-size: cover;
+}
+
+.f1-container .status
+{
+	height: 75px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.status p
+{
+	display: inline;
+}
+.cont
+{
+	color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 900;
+	height: 70px;
+	width: 50px;
+}
+.f1-container .activities
+{
+	height: 45vh;
+	width: 100%;
+}
+.activities .act
+{
+	height: 45px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.activities span
+{
+	padding-left: 10px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 900;
+	font-size: 20px;
+}
+
+
+
+
+
+.frame2
+{
+	height: 50px;
+	width: 50%;
+	
+	/*border: 1px solid;*/
+	transform: translate(270px,-650px);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.frame2 .f2-container
+{
+	height: 30px;
+	width: 50%;
+	/*border: 1px solid;*/
+	border-radius: 10px;
+	background-color: rgba(179, 174, 177, 0.22);
+	display: flex;
+	margin-left: 10px;
+}
+input[type="text"]
+{
+	border: none;
+	background-color: transparent;
+	padding-left: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	overflow: hidden;
+}
+input[type="text"]:focus
+{
+	outline: none;
+}
+
+.frame2 .create
+{
+	height: 30px;
+	width: 30%;
+	/*border: 1px solid;*/
+	display: flex;
+	align-items: center;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	color: white;
+	border-radius: 20px;
+	justify-content: space-evenly;
+	margin-right: 10px;
+}
+
+
+
+
+
+.frame3
+{
+	/*border: 1px solid;*/
+	width: 50%;
+	height: 800px;
+	/*background-color: teal;*/
+	transform: translate(270px,-600px);
+}
+.frame3 .f3-cont1
+{
+	height: 30px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+.frame3 .f3-cont2
+{
+	height: 90px;
+	width: 100%;
+	/*background-color: grey;*/
+	display: flex;
+	flex-direction: row;
+	font-family: 'Tilt Neon', sans-serif;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.f3-cont2 .box
+{
+	height: 80px;
+	width: 80px;
+	/*background-color: pink;*/
+	margin-top: 3px;
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 13px;	
+}
+
+.f3-cont2 .box .circle
+{
+	height: 60px;
+	width: 60px;
+	background: linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+	margin-left: 5px;
+	margin-top: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.img
+{
+	height: 55px;
+	width: 55px;
+	background-size: cover;
+	position: absolute;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.img.p1
+{
+	background-image: url("images/ins1.jpg");
+	background-size: cover;
+}
+.img.p2
+{
+	background-image: url("images/ins2.jpeg");
+	background-size: cover;
+}
+.img.p3
+{
+	background-image: url("images/ins3.jpeg");
+	background-size: cover;
+}
+.img.p4
+{
+	background-image: url("images/ins4.jpg");
+	background-size: cover;
+}
+.img.p5
+{
+	background-image: url("images/ins5.jpg");
+	background-size: cover;
+}
+.img.p6
+{
+	background-image: url("images/ins6.jpg");
+	background-size: cover;
+}
+
+
+.f3-cont4 .frame
+{
+	height: 500px;
+	width: 100%;
+	/*background-color: gray;*/
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.f3-cont4 .frame .header
+{
+	height: 50px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	align-items: center;
+}
+
+.header .logo
+{
+	height: 45px;
+	width: 45px;
+	background-image: url("images/ins2.jpeg");
+	background-size: cover;
+	border-radius: 50%;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.header .logo_name
+{
+	justify-content: flex-start;
+	margin-left: 15px;
+	font-weight: 900;
+	align-items: top;
+}
+.burger
+{
+	display: flex;
+	height: 10px;
+	width: 23px;
+	justify-content: space-evenly;
+	margin-left: 280px;
+}
+
+.burger span
+{
+	height: 5px;
+	width: 5px;
+	background-color: black;
+	border-radius: 50%;
+}
+.gallery
+{
+	height: 350px;
+	width: 100%;
+	/*background-color: steelblue;*/
+	background-size: cover;
+}
+
+.gallery.g1
+{
+	background-image: url("images/post4.jpeg");
+}
+.gallery.g2
+{
+	background-image: url("images/post11.jpeg");
+}
+.gallery.g3
+{
+	background-image: url("images/post3.jpeg");
+}
+.gallery.g4
+{
+	background-image: url("images/post2.jpg");
+}
+.gallery.g5
+{
+	background-image: url("images/post10.jpeg");
+}
+.gallery.g6
+{
+	background-image: url("images/post7.jpeg");
+}
+.gallery.g7
+{
+	background-image: url("images/post8.jpeg");
+}
+.icons
+{
+	height: 35px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: gray;
+}
+.icons .icon
+{
+	font-weight: 800;
+}
+.thoughts
+{
+	display: flex;
+	align-items: center;
+	/*background-color: tomato;*/
+}
+.thoughts .logo
+{
+	height: 35px;
+	width: 35px;
+	background-image: url("images/ins2.jpeg");
+	background-size: cover;
+	border-radius: 50%;
+}
+.thoughts .comments
+{
+	height: 35px;
+	width: 90%;
+	margin-left: 5px;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: gray;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.comments-links
+{
+	display: flex;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+
